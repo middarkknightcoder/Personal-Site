@@ -1,0 +1,172 @@
+body{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #4a5152;
+}
+
+.pro{
+
+    text-decoration: underline;
+    font-weight: bold;
+    color:#b28e69;
+}
+p{
+    line-height: 2;
+}
+.mountain{
+
+    width:50%;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:100px;
+    margin: 50px auto;
+    color:#699f9f;
+    line-height: auto;
+}
+
+h2,h3{
+
+    color:#699f9f;
+}
+
+.para1{
+
+    font-size: 2.5rem ; /*1 rem = 16px*/
+    color:#8aabae;
+    font-weight:normal;
+}
+
+.top-container{  /*This is perent container of the ubder the first div contain*/
+
+    background-color: #E4F9F5;
+    padding-top:100px;
+    position:relative;
+}
+
+.middle-container{
+
+    margin:100px 0px;
+
+
+}
+
+.top-cloud{
+
+    position: absolute;
+    right:200px;
+    top: 50px;
+    width:15%;
+} 
+
+/*Here all absolute postion set by a perent div top-container class */
+
+.bottom-cloud{
+
+    position: absolute;
+    left:200px;
+    bottom:300px;
+    width:15%
+}
+
+.skill-row{
+
+    width:50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-skill{
+
+    width:25%;
+    float:left;
+    margin-right:50px;
+    border-radius: 20px;
+    
+}
+
+.computer-skill{
+
+    width:25%;
+    float:right;
+    margin-left: 50px;
+    border-radius: 100px;
+}
+
+ /* This is used for styleing against the float that you can used clear */
+/* .code-skill-description{
+
+    clear:left; Here left margin is 0px
+} */
+/*
+.computer-skill-description{
+
+    clear:right;
+} */
+
+.btn {
+  background: #699f9f;
+  background-image: -webkit-linear-gradient(top, #699f9f, #072538);
+  background-image: -moz-linear-gradient(top, #699f9f, #072538);
+  background-image: -ms-linear-gradient(top, #699f9f, #072538);
+  background-image: -o-linear-gradient(top, #699f9f, #072538);
+  background-image: linear-gradient(to bottom, #699f9f, #072538);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  text-shadow: 1px 1px 3px #a800a8;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #072538;
+  background-image: -webkit-linear-gradient(top, #072538, #699f9f);
+  background-image: -moz-linear-gradient(top, #072538, #699f9f);
+  background-image: -ms-linear-gradient(top, #072538, #699f9f);
+  background-image: -o-linear-gradient(top, #072538, #699f9f);
+  background-image: linear-gradient(to bottom, #072538, #699f9f);
+  text-decoration: none;
+}
+
+hr{
+    width: 4%;
+    border:dotted #9aacae 6px;
+    border-bottom: none;  
+    margin:70px auto;  
+}
+
+.contact-me{
+
+    width:39%;
+    margin:50px auto;
+    line-height:3;
+}
+
+.bottom-container{
+
+    background-color: #a6d5cc;
+    padding:30px 20px 20px 30px; 
+}
+
+.footer-link{
+
+    text-decoration: none;
+    margin:10px 20px;
+    color:#88a3a7;
+}
+
+.footer-link:hover{
+
+    color:rgb(72 132 157);;
+}
+
+.copyright{
+
+    color:#f9f9f9;
+    padding:10px 0;
+}
